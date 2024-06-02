@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct CategoryHome: View {
     @Environment(ModelData.self) var modelData
     
@@ -33,6 +34,7 @@ struct CategoryHome: View {
         }
     }
 }
+
 
 #Preview {
     CategoryHome()
